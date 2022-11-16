@@ -1,0 +1,34 @@
+# Terraform
+**/.terraform/*
+.terraform
+.terraform.lock.*
+*.tfstate
+*.tfstate.*
+*.plan
+.terraform.d
+crash.log
+terraform.tfstate.d/
+terraform.tfvars
+
+# Mac OS
+._*
+.DS_Store
+
+# Git
+.git
+
+# Logs
+*.log
+
+# gcloud config
+.config
+credentials.json
+
+# Others
+.idea
+.vscode/
+scratchpad/
+.kitchen/
+.kitchen.local.yml
+Gemfile.lock
+inspec.lock
